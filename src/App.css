@@ -1,0 +1,70 @@
+
+.banner {
+    width: 100%;
+    height: auto;
+  }
+  
+ 
+ 
+@media (max-width: 400px) {
+  
+    h1 {
+      font-size: 1.5rem;
+    }
+  
+    h2 {
+      font-size: 1.25rem;
+    }
+  
+    h4 {
+      font-size: 1rem;
+    }
+  
+    .call {
+      font-size: 0.9rem;
+    }
+  
+    
+    .d-flex {
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .card {
+      margin-bottom: 20px;
+      width: 100%;
+      max-width: 350px;
+    }
+  
+    
+    .container {
+      flex-direction: column;
+      padding: 10px;
+    }
+  
+   
+    .teethImg {
+      padding: 0;
+    }
+  
+    .teethImg img {
+      width: 100%;
+      height: auto;
+    }
+  
+  
+    #dispnone {
+      display: none;
+    }
+    .text-center {
+      text-align: center;
+    }
+    .call {
+        display: none;
+       }
+       .nonetext{
+        display: none;
+       }
+      
+}
+  

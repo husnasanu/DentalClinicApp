@@ -1,0 +1,55 @@
+*{
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  
+}
+
+h1,h2,h4{
+  text-align: center;
+  color: darkgreen;
+  font-family: "Baskervville SC", serif;
+  font-style: italic;
+  font-weight: 700;
+}
+h2:hover{
+  text-decoration: overline;
+}
+p{
+  text-align: justify;
+}
+
+.card{
+  margin-top: 20px;
+  margin-left: 70px;
+}
+.card img{
+ height: 250px;
+ color: antiquewhite;
+}
+.custom-card {
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+.custom-card:hover {
+  transform: scale(1.05); 
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
+}
+.stickybtn{
+  position: sticky;
+  top: 120px;
+}
+.call{
+  text-align: right;
+  width: 150px;
+  border-radius: 10px;
+  position: sticky;
+  top: 50px;
+
+}
+#sticky{
+  font-style: italic;
+  color: rgb(196, 61, 34);
+  text-align: right;
+  position: sticky;
+  top: 150px;
+}
